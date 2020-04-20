@@ -124,15 +124,20 @@ div, .digits, p, h2 {
 .digits {
   display: flex;
   flex-direction: column;
+  margin: 100px 0px;
 }
 
 .section-title {
-  margin: 100px auto 20px auto;
+  margin: 0px auto 20px auto;
   width: 60%;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+}
+
+.section-title_theme_dark {
+  color: white;
 }
 
 .section-subtitle {
@@ -144,6 +149,11 @@ div, .digits, p, h2 {
   text-align: center;
 }
 
+.section-subtitle_theme_dark {
+  color: white;
+  line-height: 34px;
+}
+
 .table {
   width: 1100px;
   margin: 0px auto;
@@ -152,13 +162,25 @@ div, .digits, p, h2 {
   justify-content: space-between;
 }
 
+.table_theme_dark{
+  z-index: 2;
+}
+
 .table__cell {
   width: 250px;
   margin-top: 60px;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
 .table__heading {
   margin-bottom: 20px;
+  margin-top: 0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -168,16 +190,65 @@ div, .digits, p, h2 {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
-}
-
-.table__text_end {
   margin-bottom: 0px;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 790px;
+}
+
+.feynman__title {
+  margin: 0px auto 70px auto;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__image {
+  position: absolute;
+  width: 867px;
+  height: 637px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  padding: 90px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0px;
+  z-index: 1;
+  width: 877px;
+  height: 877px;
 }
