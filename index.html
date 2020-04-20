@@ -9,9 +9,8 @@
 </head>
 <body>
   <div class="page">
-      <img src="./images/logo_place_header.svg" alt="logo_header" class="logo logo_place_header">
-
     <header class="header">
+      <img src="./images/logo_place_header.svg" alt="logo_header" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       <a class="header__link" href="#" lang="ru">Узнать &rarr;</a>
@@ -82,7 +81,7 @@
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="#" lang="ru">Подробнее &rarr;</a>
         <img src="./images/feynman.png" alt="feynman" class="feynman__image">
       </section>
@@ -132,27 +131,37 @@
             <p class="table__text">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="triangle">
+        <div class="kaufman__triangle"></div>>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img src="./images/logo_place_footer.svg" alt="logo_footer" class="logo logo_place_footer">
           <p class="footer__author">&copy; 2020. Aleksei Tsybin</p>
         </div>
-        <div class="footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О практикуме</h3>
-          <a href="#" lang="ru" class="footer__column-links">Главная</a>
-          <a href="#" lang="ru" class="footer__column-links">Концепция</a>
-          <a href="#" lang="ru" class="footer__column-links">Наставники</a>
-        </div>
-        <div class="footer__column_content_social">
+          <ul class="footer__column-links">
+            <li><a href="#" lang="ru" class="footer__column-link">Главная</a></li>
+            <li><a href="#" lang="ru" class="footer__column-link">Концепция</a></li>
+            <li><a href="#" lang="ru" class="footer__column-link">Наставники</a></li>
+        </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <a href="#" lang="en" class="footer__column-links"><img src="./images/facebook_color_white.svg" alt="facebook"> Facebook</a>
-          <a href="#" lang="ru" class="footer__column-links"><img src="./images/vk_color_white.svg" alt="vk"> ВКонтакте</a>
-          <a href="#" lang="en" class="footer__column-links"><img src="./images/instagram_color_white.svg" alt="instagram"> Instagram</a>
-        </div>
+          <ul class="footer__column-links">
+            <li><a href="#" lang="en" class="footer__column-link">
+                <img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="facebook"> Facebook</a>
+            </li>
+            <li><a href="#" lang="ru" class="footer__column-link">
+               <img src="./images/vk_color_white.svg" class="footer__social-icon" alt="vk"> ВКонтакте</a>
+            </li>
+            <li><a href="#" lang="en" class="footer__column-link">
+               <img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="instagram"> Instagram</a>
+            </li>
+        </ul>
+        </nav>
       </div>
     </footer>
   </div>
