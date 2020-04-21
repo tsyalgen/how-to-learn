@@ -268,6 +268,10 @@
   justify-content: space-between;
 }
 
+.footer_column {
+  
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
