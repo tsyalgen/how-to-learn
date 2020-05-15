@@ -1,0 +1,9 @@
+/*.techniques * {
+  border: red 1px solid;
+}
+*/
+
+.techniques {
+  margin: 100px auto 0px auto;
+  width: 80%;
+}
