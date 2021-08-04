@@ -11,4 +11,4 @@
 
 Использованы HTML, CSS, flex, animation, BEM. Для просмотра необходим лишь браузер.
 
-_Enjoy it_. :D
+https://tsyalgen.github.io/how-to-learn/
